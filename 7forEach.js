@@ -33,10 +33,10 @@ function filterBy(array, datatype) {
 			array.forEach((elem, index) => { if (typeof array[index] !== 'boolean') { newArray.push(array[index]) } });
 
 
-			break
+			break;
 	}
 
-	return newArray
+	return newArray;
 }
 
 const taskArray = ['hello','world',23,'23',null];
