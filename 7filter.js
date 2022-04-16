@@ -1,38 +1,11 @@
 "use strict";
 
 function filterBy(array, datatype) {
-
-
+        
 	let newArray;
 
-
-	switch (datatype) {
-
-		case 'number':
-
-			newArray = array.filter((elem) => typeof elem !== 'number');
-			
-			break;
-
-        case 'string':
-
-			newArray = array.filter((elem) => typeof elem !== 'string');
-
-			break;
-
-		case 'object':
-
-			newArray = array.filter((elem) => typeof elem !== 'object');
-			
-			break;
-
-		case 'boolean':
-
-			newArray = array.filter((elem) => typeof elem !== 'boolean');
-
-			break;
-	}
-	
+	newArray = array.filter((elem) => typeof elem !== datatype);
+        
 	return newArray;
 }
 
