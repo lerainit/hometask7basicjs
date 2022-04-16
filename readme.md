@@ -70,3 +70,33 @@ myArray.forEach(element => alert(`My name is ${element}`));
  console.log(userNames.isArray()) // true
  
  ```
+### Instanceof Array
+
+
+```js
+
+function isArray(value){
+     let isArray 
+    if (value instanceof Array) {
+    
+isArray = alert('value is Array!');
+
+} else {
+
+   isArray = alert('Not an array');
+
+}
+
+return isArray
+
+}
+
+alert(isArray('stan'))
+
+//Not an array- условие в круглых скобках вернет false и выполнится инсрукция после else
+
+alert(isArray([1,2,3,4,5,6])
+
+// value is Array - условие в круглых скобках вернет true так как переданый аргумент является массивом.
+
+```
