@@ -47,5 +47,3 @@ allTypes.forEach((type) => console.log(filterBy(taskArray, type)));
 allTypes.forEach((type) => console.log(filterBy(myArray,type)));
 
 
-
-
