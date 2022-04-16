@@ -42,6 +42,6 @@ const myArray = ['lera', 32, 'vika', 34, { name: 'lera', surname: 'vitv' }, { na
 
 const allTypes = ['number', 'string', 'object', 'boolean'];
 
-allTypes.forEach((type) => console.log(filterBy(myArray, type)))
+allTypes.forEach((type) => console.log(filterBy(myArray, type)));
 
 allTypes.forEach((type) => console.log(filterBy(taskArray,type)));
