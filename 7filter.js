@@ -2,9 +2,7 @@
 
 function filterBy(array, datatype) {
         
-	let newArray;
-
-	newArray = array.filter((elem) => typeof elem !== datatype);
+	let newArray = array.filter((elem) => typeof elem !== datatype);
         
 	return newArray;
 }
