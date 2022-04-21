@@ -67,7 +67,7 @@ myArray.forEach(element => alert(`My name is ${element}`));
  
  const userNames = [ 'alina' , 'irina','ekaterina','anna']
  
- console.log(userNames.isArray()) // true
+ console.log(Array.isArray(userNames)) // true
  
  ```
 ### Instanceof Array
